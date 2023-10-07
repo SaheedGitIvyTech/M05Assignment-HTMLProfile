@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JSONDocument</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    var data = {
+      "movies": [
+        {
+          "MovieName": "Star Wars Part I",
+          "MovieGenre": [
+            "Scifi",
+            "Friction",
+            "Suspense"
+          ],
+          "Actors": [
+            "Daniel Kiss",
+            "Jane Martins"
+          ],
+          "Production Company": "Blue Clearance Pictures",
+          "Release Date": 2005,
+          "Quantity": 7000,
+          "Cost": "$1.2M"
+        },
+        {
+          "MovieName": "American Gangster",
+          "MovieGenre": [
+            "Action",
+            "Thriller"
+          ],
+          "Actors": [
+            "Densel Washington",
+            "Idris Diba"
+          ],
+          "Production Company": "BigDaddy Pictures",
+          "Release Date": 2011,
+          "Quantity": 12000,
+          "Cost": "$3.2M"
+        },
+        {
+          "MovieName": "In the Eyes of the Friends",
+          "MovieGenre": [
+            "Comedy",
+            "Intriguing"
+          ],
+          "Actors": [
+            "Baba Jimmy",
+            "Cope Wrights"
+          ],
+          "Production Company": "Sky Entertainment",
+          "Release Date": 2015,
+          "Quantity": 8000,
+          "Cost": "$3.2M"
+        }
+      ]
+    }
+
+    console.log(data)
+    /*console.log(jason.stringify(data)*/
+  </script>
+</body>
+
+</html>

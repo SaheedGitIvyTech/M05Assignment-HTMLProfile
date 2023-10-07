@@ -1,0 +1,43 @@
+.courses {
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  border: 10px double springgreen;
+  background-color: purple;
+  color: white;
+}
+
+img {
+  align-items: center;
+}
+
+
+h5 {
+  font-size: 50px;
+  color: black;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 80px;
+  color: blue;
+}
+
+h1 {
+  font-size: 80px;
+  color: blue;
+  padding: 15px;
+  margin: 10px;
+  border: 10px double red;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p>a {
+  color: black;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
