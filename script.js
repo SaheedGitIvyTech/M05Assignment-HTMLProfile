@@ -1,7 +1,5 @@
-function showAlert(){
-  alert("Todays date is  ")
+function showAlert() {
+  alert("Please ---click OK to Continue")
 }
 
 showAlert()
-
-
